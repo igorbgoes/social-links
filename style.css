@@ -1,4 +1,8 @@
 body {
+    
+}
+
+body {
     background: rgba(187, 153, 221, 0.08);
 }
 
@@ -21,11 +25,22 @@ body {
 ul {
     text-align: center;
     list-style: none;
-    
+
 }
 
 ul li a {
     text-decoration: none;
+    color: #bb99dd;
+    display: block;
+    padding: 50px auto;
+    
 
 
+}
+
+ul li {
+    border:#bb99dd 2px solid;
+    border-radius: 4px;
+    width: 326px;
+    height: 49px;
 }
