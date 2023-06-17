@@ -1,0 +1,19 @@
+body {
+    background: rgba(187, 153, 221, 0.08);
+}
+
+#conteiner {
+    width: 414px;
+    margin: auto;
+    border: 1px red solid;
+}
+
+#perfil {
+    text-align: center;
+}
+
+#perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
