@@ -4,6 +4,7 @@ body * {
 
 body {
     background: rgba(187, 153, 221, 0.08);
+    
 }
 
 #conteiner {
@@ -17,7 +18,8 @@ body {
 
 #perfil {
     text-align: center;
-    margin: 120px 100px 33px;
+    margin: 120px auto 33px;
+    
 }
 
 #perfil img {
@@ -25,6 +27,8 @@ body {
     height: 200px;
     border-radius: 50%;
     border: #bb99dd 2px solid;
+    padding: 0;
+    
 }
 
 #perfil p {
@@ -42,15 +46,23 @@ ul {
     flex-direction: column;
     gap: 16px;
     
+
     
 }
 
-ul li {
+ul li a {
     border: #bb99dd 2px solid;
     display: flex;
     height: 49px;
     align-items: center;
     justify-content: center;
-    
-    
+    border-radius: 4px;
+    color: #bb99dd;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 }
+
+
+
