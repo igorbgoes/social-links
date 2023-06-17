@@ -17,3 +17,15 @@ body {
     height: 200px;
     border-radius: 50%;
 }
+
+ul {
+    text-align: center;
+    list-style: none;
+    
+}
+
+ul li a {
+    text-decoration: none;
+
+
+}
