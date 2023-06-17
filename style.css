@@ -1,5 +1,5 @@
-body {
-    
+body * {
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -14,33 +14,23 @@ body {
 
 #perfil {
     text-align: center;
+    margin: 120px 100px 33px;
 }
 
 #perfil img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: #bb99dd 2px solid;
+}
+
+#perfil p {
+    font-weight: 300;
+    color: #bb99dd;
+    font-size: 16px;
 }
 
 ul {
-    text-align: center;
-    list-style: none;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: #bb99dd;
-    display: block;
-    padding: 50px auto;
+  
     
-
-
-}
-
-ul li {
-    border:#bb99dd 2px solid;
-    border-radius: 4px;
-    width: 326px;
-    height: 49px;
 }
