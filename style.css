@@ -10,7 +10,7 @@ body {
 #conteiner {
     width: 360px;
     margin: auto;
-    border: 1px red solid;
+    
 }
 
 
@@ -65,6 +65,13 @@ ul li a {
 }
 
 #social-links {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    gap: 29px;
+}
 
+#social-links a {
+    margin: 46px 0 0;
 }
 
