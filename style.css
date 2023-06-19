@@ -33,7 +33,7 @@ body {
 
 #perfil p {
     font-weight: 300;
-    color: #bb99dd;
+    color: rgb(36, 35, 35);
     font-size: 16px;
 }
 
@@ -51,15 +51,15 @@ ul {
 }
 
 ul li a {
-    border: #bb99dd 2px solid;
+    border: rgb(36, 35, 35) 2px solid;
     display: flex;
     height: 49px;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    color: #bb99dd;
+    color: rgb(36, 35, 35);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 16px;
     line-height: 24px;
 }
